@@ -6,7 +6,9 @@ if [ ! -d /sys/firmware/efi ]; then
     exit 0
 fi
 
-if ifclass FAIBASE; then
+if ifclass KAYMEG; then
+    echo KAYMEG_EFI
+elif ifclass FAIBASE; then
     echo FAIBASE_EFI
 elif ifclass FAISERVER; then
     echo FAISERVER_EFI

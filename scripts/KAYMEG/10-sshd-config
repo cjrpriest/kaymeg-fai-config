@@ -1,0 +1,3 @@
+#! /bin/bash
+
+sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' $target/etc/ssh/sshd_config

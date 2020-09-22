@@ -1,0 +1,6 @@
+# Set UTC=yes if your system clock is set to UTC (GMT), and UTC=no if not.
+TIMEZONE=Europe/London
+
+# the hash of the root password for the new installed linux system
+# pw is "k8s"
+ROOTPW='$1$X4IC4wQT$t1xmTt5JUp98hRmmWKURH1'
