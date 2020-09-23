@@ -2,7 +2,7 @@
 #
 # <type> <mountpoint> <size>   <fs type> <mount options> <misc options>
 
-disk_config disk1 disklabel:msdos bootable:1 fstabkey:device
+disk_config disk1 disklabel:gpt-bios bootable:1 fstabkey:uuid
 
 primary /      10G      ext4  rw,noatime,errors=remount-ro
 primary swap   1G       swap  sw
