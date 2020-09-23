@@ -5,6 +5,6 @@
 disk_config disk1 disklabel:gpt bootable:1 fstabkey:uuid
 
 primary /boot/efi 512M     vfat  rw
-primary /         6G       ext4  rw,noatime,errors=remount-ro
+primary /         10G      ext4  rw,noatime,errors=remount-ro
 primary swap      1G       swap  sw
 primary -         -100%    -     -
